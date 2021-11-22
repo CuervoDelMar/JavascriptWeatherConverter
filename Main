@@ -1,0 +1,26 @@
+//This is a tool used to conver Kelvin to Celsius;
+
+let kelvin= 0;
+
+//operation for converting Kelvin to Celsius is to subtract 273 from the reading.
+
+let celsius= kelvin -= 273;
+
+console.log(celsius);
+
+//Conversionof Celsius to Fahrenheit is the celsius value multiplied by 1.8 and adding 32
+
+let fahrenheit= Math.floor(celsius *(9/5) + 32);
+//Floor function added to round  fahrenheit to nearest whole integer
+
+console.log(fahrenheit);
+
+//String interpolation to provide readins of both celsius and fahrenheit
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// Newton conversion from celsius is celsius multiplied by .33. Using floor function to give nearet whole number
+
+let newton = Math.floor(celsius * (33/100));
+
+console.log(`The temperature in Newton is ${newton}.`)
